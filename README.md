@@ -20,6 +20,28 @@ Signal processing techniques are applied to analyze the acoustic patterns and ex
 4. Extract acoustic features from spectrogram data.
 5. Use a machine learning model to classify sound direction.
 
+## Machine Learning Model
+• Direction-based acoustic classification  
+• Classes: Front, Left, Right, None  
+• Model trained for 100 epochs  
+• Learning rate scheduling applied  
+
+## Training Results
+Training Accuracy: 72.79%  
+Validation Accuracy: 65.25%  
+Best Validation Accuracy: 70.21%
+
+### Direction-wise Performance
+Front: 94.7%  
+Left: 51.6%  
+Right: 42.1%  
+None: 70.6%
+
+Observation:
+• Strong front-direction detection  
+• Lower side accuracy due to overlapping traffic sounds
+
+
 ## Features
 - Real-time traffic sound acquisition
 - Signal preprocessing
