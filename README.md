@@ -13,6 +13,13 @@ Signal processing techniques are applied to analyze the acoustic patterns and ex
 - Signal Processing
 - Machine Learning
 
+## Methodology
+1. Capture traffic sound signals using MEMS microphones.
+2. Perform signal preprocessing and noise filtering.
+3. Apply Short-Time Fourier Transform (STFT) for time-frequency analysis.
+4. Extract acoustic features from spectrogram data.
+5. Use a machine learning model to classify sound direction.
+
 ## Features
 - Real-time traffic sound acquisition
 - Signal preprocessing
